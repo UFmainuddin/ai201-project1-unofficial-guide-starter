@@ -1,0 +1,36 @@
+Source: https://new.mta.info/maps + Queens College transportation guides + MTA route information
+Accessed: 2026-06-08
+Description: Bus routes connecting Queens College campus to Flushing and surrounding areas; transit tips for students
+---
+Queens College is located in Kew Gardens Hills, Queens, at the intersection of Kissena Boulevard and Melbourne Avenue. The campus does not have direct subway access. Students rely on buses to connect to the subway system.
+
+Key bus routes for Queens College students:
+
+Q25 (Flushing - Jamaica via Kissena Blvd / Main St):
+This is the most important bus for Queens College students. It stops directly on Kissena Boulevard adjacent to the campus. It runs north to Flushing Main Street (about 20-25 minutes) and south to Jamaica (about 30 minutes). From Flushing Main Street, students can transfer to the 7 train to Manhattan. This is the primary route to get to Flushing for students coming from campus.
+
+Q17 (Flushing - Jamaica via Francis Lewis Blvd):
+This bus also serves the Queens College area and connects to Flushing. It takes a slightly different route through Murray Hill and Auburndale before reaching Flushing. Travel time to Flushing is about 25-30 minutes depending on traffic. Good for students living in Murray Hill who want to commute directly to campus.
+
+Q44 SBS (Select Bus Service from Flushing to Jamaica):
+This Select Bus Service (SBS) route runs along Main Street in Flushing and is faster than local buses. It does not stop directly at Queens College but connects Flushing to the Jamaica transit hub. Students living in Flushing can use Q44 SBS to get to Jamaica and then take the Q25 or another route to campus.
+
+Q20A/Q20B:
+These routes serve the Fresh Meadows and Kissena area near campus. Useful for students living in the Fresh Meadows neighborhood east of campus.
+
+7 Train (IRT Flushing Line):
+The 7 train terminates at Flushing-Main Street. From there, students can take buses to Queens College. The 7 train connects Flushing to Long Island City and Midtown Manhattan (Times Square-42nd St, Grand Central-42nd St). Express service is available during rush hours. Travel time from Flushing to Times Square is approximately 35-45 minutes.
+
+LIRR (Long Island Rail Road) - Port Washington Branch:
+LIRR stations near Flushing include Murray Hill and Broadway (Flushing). The LIRR provides fast access to Penn Station in Manhattan (about 20-25 minutes). Students who commute to internships or jobs in Manhattan may find the LIRR worth the extra cost. However, the LIRR requires a separate ticket purchase on top of the MetroCard.
+
+Commute time estimates from Flushing to Queens College:
+- By bus (Q25 or Q17): 20-30 minutes depending on traffic
+- Walking from Flushing Main Street: About 40-50 minutes, not recommended daily
+- Biking: About 20-25 minutes, feasible for students with bikes
+
+Tips for students:
+- The OMNY contactless payment system works on all MTA buses and subways
+- An unlimited monthly MetroCard costs $132/month as of 2024
+- Off-peak bus service can have long waits (15-20 minutes between buses late at night)
+- The Q25 tends to get crowded during morning rush hour (8-10am) going southbound toward Jamaica
