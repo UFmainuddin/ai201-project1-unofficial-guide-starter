@@ -77,7 +77,14 @@ def chunk_text(text, size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
     start = 0
 
     while start < len(text):
-        end = start + size
+        end = min(start + size, len(text))
+
+        # Snap end to nearest word boundary so we don't cut mid-word
+        if end < len(text) and text[end] != " ":
+            last_space = text.rfind(" ", start, end)
+            if last_space > start:
+                end = last_space
+
         chunk = text[start:end].strip()
 
         # Skip very short final fragments (less than 50 chars is not useful)
@@ -87,7 +94,15 @@ def chunk_text(text, size=CHUNK_SIZE, overlap=CHUNK_OVERLAP):
         if chunk:
             chunks.append(chunk)
 
-        start += step
+        # Advance to next start, snapping to the next word boundary
+        next_start = start + step
+        if next_start < len(text) and text[next_start] != " ":
+            next_space = text.find(" ", next_start)
+            next_start = next_space + 1 if next_space != -1 else len(text)
+
+        if next_start <= start:
+            break
+        start = next_start
 
     return chunks
 

@@ -11,7 +11,7 @@ from ingest import ingest_all
 CHROMA_PATH = "./chroma_db"
 COLLECTION_NAME = "housing_guide"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-TOP_K = 5
+TOP_K = 8
 
 # Module-level singletons — loaded once, reused by query.py
 _model = None

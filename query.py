@@ -45,8 +45,8 @@ def ask(question):
             "answer"  — the LLM's grounded response
             "sources" — list of source filenames used
     """
-    # 1. Retrieve top-5 relevant chunks
-    chunks = retrieve(question, top_k=5)
+    # 1. Retrieve top-8 relevant chunks (wider recall for fragmented chunks)
+    chunks = retrieve(question, top_k=8)
 
     if not chunks:
         return {
