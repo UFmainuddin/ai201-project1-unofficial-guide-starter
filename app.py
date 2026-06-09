@@ -45,13 +45,16 @@ with gr.Blocks(title="Flushing Off-Campus Housing Guide") as demo:
     btn.click(handle_query, inputs=inp, outputs=[answer, sources])
     inp.submit(handle_query, inputs=inp, outputs=[answer, sources])
 
-    gr.Markdown(
-        "**Sample questions to try:**\n"
-        "- How much does a one-bedroom cost in Flushing?\n"
-        "- How do I get from Queens College to Flushing by bus?\n"
-        "- What are quieter neighborhoods near Flushing for students?\n"
-        "- What do I do if my landlord won't fix the heat?\n"
-        "- Where can I get cheap food near Flushing Main Street?"
+    gr.Examples(
+        label="Sample questions to try (click one to load it):",
+        examples=[
+            ["How much does a one-bedroom cost in Flushing?"],
+            ["How do I get from Queens College to Flushing by bus?"],
+            ["What are quieter neighborhoods near Flushing for students?"],
+            ["What do I do if my landlord won't fix the heat?"],
+            ["Where can I get cheap food near Flushing Main Street?"],
+        ],
+        inputs=inp,
     )
 
 
