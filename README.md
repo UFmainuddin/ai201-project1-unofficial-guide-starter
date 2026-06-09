@@ -174,6 +174,4 @@ The spec in planning.md listed Brick Underground and 6sqft.com as sources I woul
 
 ## Demo Video
 
-<!-- Add your video link here once recorded (YouTube, Google Drive, Loom, etc.) -->
-
-**Link:** _coming soon_
+  https://drive.google.com/file/d/1mZz0D2oDhMRXxVn_uTUlANYayAk6fHpI/view?usp=sharing
