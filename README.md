@@ -169,3 +169,11 @@ The spec in planning.md listed Brick Underground and 6sqft.com as sources I woul
 - *What I gave the AI:* The actual evaluation results from running all 5 test questions — the full system responses with distance scores and retrieved chunks for each query.
 - *What it produced:* The failure case analysis for Question 4 (heater query), identifying that the 6,000-character trim of the HPD page cut off the specific heat regulation text, and that the retrieved chunks were generic legal boilerplate that didn't semantically match "broken heater."
 - *What I changed or overrode:* The AI's initial failure analysis focused only on chunk size. I directed it to also look at the fetch-stage content loss (the 6,000-char trim) as a contributing factor, since that was the root cause of the missing heat regulation information, not just how the chunks were split.
+
+---
+
+## Demo Video
+
+<!-- Add your video link here once recorded (YouTube, Google Drive, Loom, etc.) -->
+
+**Link:** _coming soon_
